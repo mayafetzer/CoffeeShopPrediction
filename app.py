@@ -3,12 +3,12 @@ import pandas as pd
 import pickle
 
 # Load the pre-trained model
-model_file = '/Users/mayafetzer/Documents/Projects/Coffee Shop Prediction/best_model.pkl'
+model_file = 'best_model.pkl'
 with open(model_file, 'rb') as model_f:
     model = pickle.load(model_f)
 
 # Load the label encoder
-label_encoder_file = '/Users/mayafetzer/Documents/Projects/Coffee Shop Prediction/label_encoder.pkl'
+label_encoder_file = 'label_encoder.pkl'
 with open(label_encoder_file, 'rb') as label_encoder_f:
     label_encoder = pickle.load(label_encoder_f)
 
